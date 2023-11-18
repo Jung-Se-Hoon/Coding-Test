@@ -1,3 +1,3 @@
-A, B = input().split()
+A, B = map(int, input().split())
 
-print(float(A) / float(B))
+print(A/B)
