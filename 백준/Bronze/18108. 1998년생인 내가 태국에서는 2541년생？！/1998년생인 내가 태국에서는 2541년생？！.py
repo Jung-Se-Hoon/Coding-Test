@@ -1,3 +1,1 @@
-A = input()
-
-print(int(A)-543)
+print(int(input())-543)
