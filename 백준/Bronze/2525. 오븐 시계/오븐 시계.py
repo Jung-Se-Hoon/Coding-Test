@@ -1,16 +1,12 @@
-H, M = map(int, input().split())
-A = int(input())
+A, B = map(int, input().split())
+C = int(input())
 
-H += A // 60
-M += A % 60
+D = B + C
 
-if M >= 60:
-    H +=  M // 60
-    M %= 60
-    
-if H >= 24:
-    H -= 24
+if D >= 60:
+    A += (D) // 60
+    if A > 23:
+        A -= 24
+    D %= 60
 
-
-
-print(H, M)
+print(A, D)
