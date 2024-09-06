@@ -1,6 +1,5 @@
-a= int(input())
+T= int(input())
 
-for i in range(1, a+1):
-    a, b = map(int, input().split())
-    print("Case #" + str(i) + ":", a+b)
-
+for i in range(1, T+1):
+    A, B = map(int, input().split())
+    print(f'Case #{i}: {A+B}')
